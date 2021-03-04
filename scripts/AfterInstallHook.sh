@@ -5,6 +5,6 @@ npm install
 echo "modules installed"
 if pgrep nodejs; then pkill nodejs; fi
 echo "nodejs processes killed"
-nodejs ./app.js &
+nodejs ./app.js /dev/null 2> /dev/null < /dev/null &
 echo "app started"
 exit 0
