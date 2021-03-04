@@ -1,5 +1,5 @@
 #!/bin/bash
 set -e
-cd /usr/share/nginx/html
+cd /usr/share/myapp
 npm install
-nodejs ./app.js
+nodejs ./app.js &
