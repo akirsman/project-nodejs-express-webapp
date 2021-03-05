@@ -3,7 +3,6 @@ phases:
   pre_build:
     commands:
       - echo Installing source NPM dependencies...
-      - npm install
   build:
     commands:
       - echo No build, just modules install
