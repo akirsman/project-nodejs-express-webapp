@@ -5,11 +5,7 @@
 
 # Nodejs Express web application
 
-Sample Nodejs Express web application built using Visual Studio 2017.
-
-## License:
-
-See [LICENSE](LICENSE).
+Nodejs Express web application for an AWS CodePipeline demo
 
 ## Contributing
 
