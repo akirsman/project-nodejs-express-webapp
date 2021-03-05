@@ -4,6 +4,9 @@ files:
   - source: /
     destination: /usr/share/myapp
 hooks:
+  BeforeInstall:
+    - location: scripts/BeforeInstallHook.sh
+      timeout: 300
   AfterInstall:
     - location: scripts/AfterInstallHook.sh
       timeout: 300
